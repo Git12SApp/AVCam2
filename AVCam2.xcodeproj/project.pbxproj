@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		73A3C7851FFC5740005C69E7 /* Objective-C in Resources */ = {isa = PBXBuildFile; fileRef = 73A3C7841FFC5740005C69E7 /* Objective-C */; };
 		73A3C7871FFC57F9005C69E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3C7861FFC57F8005C69E7 /* Default-568h@2x.png */; };
-		73A3C78B1FFC60BB005C69E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73A3C78A1FFC60BB005C69E7 /* Info.plist */; };
+		73DC6BD11FFD699200121DFF /* Swift in Resources */ = {isa = PBXBuildFile; fileRef = 73DC6BCE1FFD699200121DFF /* Swift */; };
+		73DC6BD21FFD699200121DFF /* Objective-C in Resources */ = {isa = PBXBuildFile; fileRef = 73DC6BCF1FFD699200121DFF /* Objective-C */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		73A3C76F1FFC55A1005C69E7 /* AVCam2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVCam2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		73A3C7841FFC5740005C69E7 /* Objective-C */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Objective-C"; path = "../../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Objective-C"; sourceTree = "<group>"; };
 		73A3C7861FFC57F8005C69E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		73A3C78A1FFC60BB005C69E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../.Trash/Info.plist; sourceTree = "<group>"; };
+		73DC6BCE1FFD699200121DFF /* Swift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Swift; path = "../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Swift"; sourceTree = "<group>"; };
+		73DC6BCF1FFD699200121DFF /* Objective-C */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Objective-C"; path = "../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Objective-C"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,9 +33,9 @@
 		73A3C7661FFC55A1005C69E7 = {
 			isa = PBXGroup;
 			children = (
-				73A3C78A1FFC60BB005C69E7 /* Info.plist */,
 				73A3C7861FFC57F8005C69E7 /* Default-568h@2x.png */,
-				73A3C7711FFC55A1005C69E7 /* AVCam2 */,
+				73DC6BCF1FFD699200121DFF /* Objective-C */,
+				73DC6BCE1FFD699200121DFF /* Swift */,
 				73A3C7701FFC55A1005C69E7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,14 +46,6 @@
 				73A3C76F1FFC55A1005C69E7 /* AVCam2.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		73A3C7711FFC55A1005C69E7 /* AVCam2 */ = {
-			isa = PBXGroup;
-			children = (
-				73A3C7841FFC5740005C69E7 /* Objective-C */,
-			);
-			path = AVCam2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,8 +107,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73A3C78B1FFC60BB005C69E7 /* Info.plist in Resources */,
-				73A3C7851FFC5740005C69E7 /* Objective-C in Resources */,
+				73DC6BD11FFD699200121DFF /* Swift in Resources */,
+				73DC6BD21FFD699200121DFF /* Objective-C in Resources */,
 				73A3C7871FFC57F9005C69E7 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +239,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W57QV8P5J4;
-				INFOPLIST_FILE = "$(SRCROOT)/../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Objective-C/Swift/AVCam/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Objective-C/AVCam/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SApp.AVCam2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -262,7 +254,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W57QV8P5J4;
-				INFOPLIST_FILE = "$(SRCROOT)/../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Objective-C/Swift/AVCam/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Objective-C/AVCam/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SApp.AVCam2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
