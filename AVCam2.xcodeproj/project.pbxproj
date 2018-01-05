@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730DCF4D1FFFE3BB004C2E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DCF4C1FFFE3BB004C2E44 /* AppDelegate.swift */; };
+		730DCF4F1FFFE3D3004C2E44 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730DCF4E1FFFE3D3004C2E44 /* CameraViewController.swift */; };
 		73A3C7871FFC57F9005C69E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73A3C7861FFC57F8005C69E7 /* Default-568h@2x.png */; };
 		73DC6BD11FFD699200121DFF /* Swift in Resources */ = {isa = PBXBuildFile; fileRef = 73DC6BCE1FFD699200121DFF /* Swift */; };
 		73DC6BD21FFD699200121DFF /* Objective-C in Resources */ = {isa = PBXBuildFile; fileRef = 73DC6BCF1FFD699200121DFF /* Objective-C */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		730DCF4C1FFFE3BB004C2E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Swift/AVCam/AppDelegate.swift"; sourceTree = "<group>"; };
+		730DCF4E1FFFE3D3004C2E44 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = "../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Swift/AVCam/CameraViewController.swift"; sourceTree = "<group>"; };
 		73A3C76F1FFC55A1005C69E7 /* AVCam2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVCam2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73A3C7861FFC57F8005C69E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		73DC6BCE1FFD699200121DFF /* Swift */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Swift; path = "../../AVCam-iOSUsingAVFoundationtoCaptureImagesandMovies/Swift"; sourceTree = "<group>"; };
@@ -33,6 +37,8 @@
 		73A3C7661FFC55A1005C69E7 = {
 			isa = PBXGroup;
 			children = (
+				730DCF4E1FFFE3D3004C2E44 /* CameraViewController.swift */,
+				730DCF4C1FFFE3BB004C2E44 /* AppDelegate.swift */,
 				73A3C7861FFC57F8005C69E7 /* Default-568h@2x.png */,
 				73DC6BCF1FFD699200121DFF /* Objective-C */,
 				73DC6BCE1FFD699200121DFF /* Swift */,
@@ -120,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				730DCF4D1FFFE3BB004C2E44 /* AppDelegate.swift in Sources */,
+				730DCF4F1FFFE3D3004C2E44 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
